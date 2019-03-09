@@ -1,5 +1,9 @@
 # Project Luncher
 
+## Links
+* [Technical Design Document (TDD)](https://docs.google.com/document/d/12gjtGcTRRByS7uIA0Q8NDX5Jf3MHw3mvh-yOXv0W-xM/edit#)
+* [Trello board](https://trello.com/invite/b/kYd02b1Y/dc1b542dd4274aa091aaed746e713b95/luncher)
+
 ## Project pitch
 There are kids today in this country who go without student lunches. This app allows schools to broadcast the needs of their students by declaring an amount of donations that they would need to be fullfilled in order to provide lunches for those that go without. 
 
