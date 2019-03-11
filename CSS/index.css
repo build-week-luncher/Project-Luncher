@@ -134,14 +134,15 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto-regular';
+  font-family: 'Roboto';
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Roboto-bold';
+  font-weight: bold;
+  color: #33475B;
 }
 h1 {
   font-size: 4rem;
@@ -158,6 +159,7 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+  color: #33475B;
 }
 img {
   max-width: 100%;
@@ -167,6 +169,52 @@ img {
   max-width: 100%;
   margin: 0 auto;
 }
+.btn-mixin {
+  background: #FF7A59;
+  padding: 0 10px;
+  border: 2px solid #33475B;
+  color: #33475B;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+.btn-mixin:hover {
+  background: #4DB3AF;
+}
 header {
+  background: #4DB3AF;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+header a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #33475B;
+  font-size: 2rem;
+}
+header .head-luncher {
+  font-size: 3.6rem;
+  margin-left: 5%;
+}
+header .nav-link {
+  padding-top: 5px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  margin-right: 5%;
+}
+header .nav-btn {
+  background: #FF7A59;
+  padding: 0 10px;
+  border: 2px solid #33475B;
+  color: #33475B;
+  font-size: 2rem;
+  border-radius: 5px;
+  height: 27px;
+}
+header .nav-btn:hover {
   background: #4DB3AF;
 }
