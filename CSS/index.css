@@ -218,3 +218,27 @@ header .nav-btn {
 header .nav-btn:hover {
   background: #4DB3AF;
 }
+footer {
+  background: #4DB3AF;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+footer p {
+  margin-right: 5%;
+}
+footer .admin-login-btn {
+  text-decoration: none;
+  background: #FF7A59;
+  padding: 0 10px;
+  border: 2px solid #33475B;
+  color: #33475B;
+  font-size: 2rem;
+  border-radius: 5px;
+  height: 27px;
+  margin-left: 5%;
+}
+footer .admin-login-btn:hover {
+  background: #4DB3AF;
+}
